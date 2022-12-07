@@ -6,11 +6,11 @@ This repo is an experiment to see if Webpack loaders can be used with CSS module
 
 0. `yarn`: install deps
 1. `yarn webpack`: build the app
-2. `yarn serve`: server the app
+2. `yarn serve`: serve the app
 
 ## Background
 
-Essentially the goal is to be able to the following (pseudo code ahead!):
+Essentially the goal is to be able do the following (pseudo code ahead!):
 
 ```jsx
 // A React component
