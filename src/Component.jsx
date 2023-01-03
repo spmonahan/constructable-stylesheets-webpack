@@ -1,10 +1,11 @@
 import React from "react";
+import { useShadowStyles } from "./ShadowRoot";
 import * as styles from './Component.css' assert { type: 'css' };
 
-// Adopt all sheets into the document
-document.adoptedStyleSheets = [...document.adoptedStyleSheets, styles.default];
-
 export const Component = () => {
+    
+    useShadowStyles(styles.default);
+
     return <div className={styles.test}>
         Hello World
     </div>;
